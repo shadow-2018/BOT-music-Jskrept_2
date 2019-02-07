@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "12";
+const prefix = "22";
 /////////////////////////
 ////////////////////////
 
@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (12)**')
+        .setDescription('**برفكس البوت (22)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`12play}مبرمج البوت ali almeahy`,"http://twitch.tv/Death Shop")
+client.user.setGame(`22play}مبرمج البوت ali almeahy`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
